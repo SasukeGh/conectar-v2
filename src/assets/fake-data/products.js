@@ -63,7 +63,7 @@ const products = [
   {
     id: "04",
     title: "Assorted Fried rice",
-    price: 110.0,
+    price: 60.0,
     image01: product_04_image_01,
     image02: product_04_image_02,
     image03: product_04_image_03,
@@ -98,7 +98,7 @@ const products = [
   {
     id: "05",
     title: " Assorted Jollof",
-    price: 50.0,
+    price: 60.0,
     image01: product_05_image_02,
     image02: product_05_image_01,
     image03: product_05_image_03,
