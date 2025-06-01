@@ -10,7 +10,7 @@ class WhatsAppService {
 
   // Format cart items for WhatsApp message
   formatOrderDetails(cartItems, totalAmount, customerInfo = null) {
-    let message = ' *NEW ORDER* \n\n';
+    let message = '🍕 *NEW PIZZA ORDER* 🍕\n\n';
     
     if (customerInfo) {
       message += `👤 *Customer Details:*\n`;
@@ -67,3 +67,31 @@ class WhatsAppService {
       return { success: false, message: 'Failed to send notification' };
     }
   }
+
+  // Alternative method using POST (if GET doesn't work)
+  async sendOrderNotificationPOST(cartItems, totalAmount, customerInfo = null) {
+    try {
+      const message = this.formatOrderDetails(cartItems, totalAmount, customerInfo);
+      
+      const formData = new FormData();
+      formData.append('phone', this.phoneNumber);
+      formData.append('text', message);
+      formData.append('apikey', this.apiKey);
+      
+      const response = await fetch(this.baseUrl, {
+        method: 'POST',
+        body: formData,
+        mode: 'no-cors'
+      });
+      
+      console.log('WhatsApp notification sent successfully (POST)');
+      return { success: true, message: 'Order notification sent to chef!' };
+      
+    } catch (error) {
+      console.error('Error sending WhatsApp notification (POST):', error);
+      return { success: false, message: 'Failed to send notification' };
+    }
+  }
+}
+
+export default new WhatsAppService();
