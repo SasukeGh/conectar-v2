@@ -7,17 +7,17 @@ import product_02_image_01 from "../images/product_2.1.jpg";
 import product_02_image_02 from "../images/product_2.2.jpg";
 import product_02_image_03 from "../images/product_2.3.jpg";
 
-import product_03_image_01 from "../images/product_3.1.jpg";
-import product_03_image_02 from "../images/product_3.2.jpg";
-import product_03_image_03 from "../images/product_3.3.jpg";
+import product_03_image_01 from "../images/jollof0.jpg";
+import product_03_image_02 from "../images/jollof0.jpg";
+import product_03_image_03 from "../images/jollof0.jpg";
 
-import product_04_image_01 from "../images/product_4.1.jpg";
-import product_04_image_02 from "../images/product_4.2.jpg";
-import product_04_image_03 from "../images/product_4.3.png";
+import product_04_image_01 from "../images/friedrice1.jpg";
+import product_04_image_02 from "../images/friedrice1.jpg";
+import product_04_image_03 from "../images/friedrice1.png";
 
-// import product_05_image_01 from "../images/product_04.jpg";
-// import product_05_image_02 from "../images/product_08.jpg";
-// import product_05_image_03 from "../images/product_09.jpg";
+ import product_05_image_01 from "../images/jollof1.jpg";
+ import product_05_image_02 from "../images/jollof1.jpg";
+ import product_05_image_03 from "../images/jollof1.jpg";
 
 // import product_06_image_01 from "../images/bread(1).png";
 // import product_06_image_02 from "../images/bread(2).png";
@@ -99,9 +99,9 @@ const products = [
     id: "05",
     title: " Assorted Jollof",
     price: 50.0,
-    image01: product_02_image_02,
-    image02: product_02_image_01,
-    image03: product_02_image_03,
+    image01: product_05_image_02,
+    image02: product_05_image_01,
+    image03: product_05_image_03,
     category: "Rice",
     
     desc: "Local Ghanaian Jollof with vegetables and egg.",
