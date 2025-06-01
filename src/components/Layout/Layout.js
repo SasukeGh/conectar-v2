@@ -18,12 +18,6 @@ const Layout = () => {
         <Routes />
       </div>
       <Footer />
-      <Footer />
-      <Footer />
-      <Footer />
-      <Footer />
-      <Footer />
-
     </div>
   );
 };
