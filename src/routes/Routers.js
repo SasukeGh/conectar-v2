@@ -6,7 +6,7 @@ import Pizzas from "../pages/Pizzas";
 import PizzaDetails from "../pages/PizzaDetails";
 import Cart from "../pages/Cart";
 import Checkout from "../pages/Checkout";
-import menu from "../pages/menu";
+import Menu from "../pages/menu"; // Make sure this import uses consistent casing
 
 const Routers = () => {
   return (
@@ -14,6 +14,7 @@ const Routers = () => {
       <Route path="/" element={<Navigate to="/home" />} />
       <Route path="/home" element={<Home />} />
       <Route path="/pizzas" element={<Pizzas />} />
+      <Route path="/menu" element={<Menu />} /> {/* Add this missing route */}
       <Route path="/cart" element={<Cart />} />
       <Route path="/checkout" element={<Checkout />} />
       <Route path="/pizzas/:id" element={<PizzaDetails />} />
