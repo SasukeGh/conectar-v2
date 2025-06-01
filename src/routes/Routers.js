@@ -6,6 +6,7 @@ import Pizzas from "../pages/Pizzas";
 import PizzaDetails from "../pages/PizzaDetails";
 import Cart from "../pages/Cart";
 import Checkout from "../pages/Checkout";
+import Menu from "../pages/menu";
 
 const Routers = () => {
   return (
