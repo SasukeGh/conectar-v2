@@ -13,7 +13,7 @@ import product_03_image_03 from "../images/jollof0.jpg";
 
 import product_04_image_01 from "../images/friedrice1.jpg";
 import product_04_image_02 from "../images/friedrice1.jpg";
-import product_04_image_03 from "../images/friedrice1.png";
+import product_04_image_03 from "../images/friedrice1.jpg";
 
  import product_05_image_01 from "../images/jollof1.jpg";
  import product_05_image_02 from "../images/jollof1.jpg";
