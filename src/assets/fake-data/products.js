@@ -1,7 +1,7 @@
 // all images imported from images directory
-// import product_01_image_01 from "../images/product_01.jpg";
-// import product_01_image_02 from "../images/product_01.1.jpg";
-// import product_01_image_03 from "../images/product_01.3.jpg";
+import product_01_image_01 from "../images/product_01.jpg";
+ import product_01_image_02 from "../images/product_01.1.jpg";
+import product_01_image_03 from "../images/product_01.3.jpg";
 
 import product_02_image_01 from "../images/product_2.1.jpg";
 import product_02_image_02 from "../images/product_2.2.jpg";
@@ -24,52 +24,52 @@ import product_04_image_03 from "../images/product_4.3.png";
 // import product_06_image_03 from "../images/bread(3).png";
 
 const products = [
-  // {
-  //   id: "01",
-  //   title: "Chicken Burger",
-  //   price: 24.0,
-  //   image01: product_01_image_01,
-  //   image02: product_01_image_02,
-  //   image03: product_01_image_03,
-  //   category: "Burger",
+  {
+    id: "01",
+     title: "Rice and zongo stew",
+    price: 60.0,
+    image01: product_01_image_01,
+    image02: product_01_image_02,
+    image03: product_01_image_03,
+     category: "Rice",
 
-  //   desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque. ",
-  // },
+     desc: "Delicious Rice and zongo stew",
+   },
 
   {
     id: "02",
-    title: "Vegetarian Pizza",
-    price: 115.0,
+    title: "Fried Rice",
+    price: 50.0,
     image01: product_02_image_01,
     image02: product_02_image_02,
     image03: product_02_image_03,
-    category: "Pizza",
+    category: "Rice",
     
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
+    desc: "Local ghanaian Fried rice",
   },
 
   {
     id: "03",
-    title: "Double Cheese Margherita",
-    price: 110.0,
+    title: "Jollof Rice",
+    price: 50.0,
     image01: product_03_image_01,
     image02: product_03_image_02,
     image03: product_03_image_03,
-    category: "Pizza",
+    category: "Rice",
     
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
+    desc: "Local Ghanaian Jollof",
   },
 
   {
     id: "04",
-    title: "Maxican Green Wave",
+    title: "Assorted Fried rice",
     price: 110.0,
     image01: product_04_image_01,
     image02: product_04_image_02,
     image03: product_04_image_03,
-    category: "Pizza",
+    category: "Rice",
     
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
+    desc: "Local Ghanaian assorted fried rice.",
   },
 
   // {
@@ -96,41 +96,18 @@ const products = [
   // },
 
   {
-    id: "07",
-    title: "Seafood Pizza",
-    price: 115.0,
+    id: "05",
+    title: " Assorted Jollof",
+    price: 50.0,
     image01: product_02_image_02,
     image02: product_02_image_01,
     image03: product_02_image_03,
-    category: "Pizza",
+    category: "Rice",
     
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
+    desc: "Local Ghanaian Jollof with vegetables and egg.",
   },
 
-  {
-    id: "08",
-    title: "Thin Cheese Pizza",
-    price: 110.0,
-    image01: product_03_image_02,
-    image02: product_03_image_01,
-    image03: product_03_image_03,
-    category: "Pizza",
-    
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
-  },
-
-  {
-    id: "09",
-    title: "Pizza With Mushroom",
-    price: 110.0,
-    image01: product_04_image_02,
-    image02: product_04_image_01,
-    image03: product_04_image_03,
-    category: "Pizza",
-    
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
-  },
-
+  
   // {
   //   id: "10",
   //   title: "Classic Hamburger",
