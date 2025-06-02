@@ -7,6 +7,7 @@ import PizzaDetails from "../pages/PizzaDetails";
 import Cart from "../pages/Cart";
 import Checkout from "../pages/Checkout";
 import Menu from "../pages/menu"; // Make sure this import uses consistent casing
+import Dev from "../pages/dev";
 
 const Routers = () => {
   return (
