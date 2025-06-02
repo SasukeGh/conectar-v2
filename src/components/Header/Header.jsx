@@ -29,7 +29,7 @@ const nav__links = [
   },
   {
     display: "Developer",
-    path: "https://sttech.vercel.app",
+    path: "/dev",
   },
 ];
 
