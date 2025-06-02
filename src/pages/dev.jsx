@@ -1,12 +1,9 @@
 import { useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
 
 export default function Pizzas() {
-  const navigate = useNavigate();
-
   useEffect(() => {
-    navigate('https://sttech.vercel.app', { replace: true }); // replace:true prevents back button returning to /pizzas
-  }, [navigate]);
+    window.location.replace('https://sttech.vercel.app'); // This prevents back navigation too
+  }, []);
 
   return null; // nothing to render
 }
