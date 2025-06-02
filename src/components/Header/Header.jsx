@@ -27,6 +27,10 @@ const nav__links = [
     display: "Contact",
     path: "/contact",
   },
+  {
+    display: "Developer",
+    path: "https://sttech.vercel.app",
+  },
 ];
 
 const Header = () => {
