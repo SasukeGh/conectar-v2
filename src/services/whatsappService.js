@@ -17,7 +17,7 @@ class WhatsAppService {
       message += `Name: ${customerInfo.name}\n`;
       message += `Phone: ${customerInfo.phone}\n`;
       message += `Address: ${customerInfo.address}\n`;
-      message += `Extra Info: ${customerInfo.address}\n\n`;
+      message += `Extra Info: ${customerInfo.notes}\n\n`;
     }
     
     message += `📋 *Order Summary:*\n`;
