@@ -10,7 +10,7 @@ class WhatsAppService {
 
   // Format cart items for WhatsApp message
   formatOrderDetails(cartItems, totalAmount, customerInfo = null) {
-    let message = '🍕 *NEW PIZZA ORDER* 🍕\n\n';
+    let message = ' *NEW ORDER* \n\n';
     
     if (customerInfo) {
       message += `👤 *Customer Details:*\n`;
@@ -37,7 +37,7 @@ class WhatsAppService {
     message += `━━━━━━━━━━━━━━━━\n`;
     message += `💰 *Total Amount: GHC ${totalAmount.toFixed(2)}*\n\n`;
     message += `⏰ *Order Time: ${new Date().toLocaleString()}*\n`;
-    message += `📱 Please confirm receipt of this order.`;
+    message += `📱 Please confirm receipt of this order by calling.`;
     
     return message;
   }
