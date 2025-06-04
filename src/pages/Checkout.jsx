@@ -80,7 +80,7 @@ const Checkout = () => {
         </div>
         <span>
           Your order has been sent to our chef and will be processed shortly. 
-          You will receive a confirmation via WhatsApp. Contact us for more details.
+          You will receive a confirmation via Call. Contact us for more details.
         </span>
       </div>
     );
